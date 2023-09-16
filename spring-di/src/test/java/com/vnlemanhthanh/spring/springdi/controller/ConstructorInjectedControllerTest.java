@@ -4,11 +4,9 @@
 
 package com.vnlemanhthanh.spring.springdi.controller;
 
-import com.vnlemanhthanh.spring.springdi.service.GreetingServiceImpl;
+import com.vnlemanhthanh.spring.springdi.service.ConstructorGreetingService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class ConstructorInjectedControllerTest {
 
@@ -16,7 +14,7 @@ class ConstructorInjectedControllerTest {
 
     @BeforeEach
     void setUp() {
-        controller = new ConstructorInjectedController(new GreetingServiceImpl());
+        controller = new ConstructorInjectedController(new ConstructorGreetingService());
 
     }
 
