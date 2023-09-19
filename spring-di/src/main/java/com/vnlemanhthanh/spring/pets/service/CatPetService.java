@@ -2,13 +2,8 @@
  * Copyright (c) 2023. vnlemanhthanh.com
  */
 
-package com.vnlemanhthanh.spring.springdi.service;
+package com.vnlemanhthanh.spring.pets.service;
 
-import org.springframework.context.annotation.Profile;
-import org.springframework.stereotype.Service;
-
-@Service
-@Profile("cat")
 public class CatPetService implements PetService {
     @Override
     public String getPetType() {

@@ -4,7 +4,7 @@
 
 package com.vnlemanhthanh.spring.springdi.controller;
 
-import com.vnlemanhthanh.spring.springdi.service.PetService;
+import com.vnlemanhthanh.spring.pets.service.PetService;
 import org.springframework.stereotype.Controller;
 
 @Controller

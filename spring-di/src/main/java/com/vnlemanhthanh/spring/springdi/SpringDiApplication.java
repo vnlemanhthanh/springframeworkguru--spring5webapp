@@ -4,7 +4,9 @@ import com.vnlemanhthanh.spring.springdi.controller.*;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ImportResource;
 
+@ImportResource("classpath:springdi-config.xml")
 @SpringBootApplication
 public class SpringDiApplication {
 
